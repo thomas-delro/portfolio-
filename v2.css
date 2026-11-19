@@ -276,9 +276,16 @@ footer {
     flex-direction: column;
     justify-content: center;
 }
-.galerietemp {
-    display: flex;
-    flex-direction: column;
+#galerietemp {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+#galerietemp img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--arrondi);
 }
 @media (max-width: 640px) {
     nav {

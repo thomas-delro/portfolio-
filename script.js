@@ -12,3 +12,8 @@ function changerTheme() {
 }
 
 btnTheme.addEventListener("click", changerTheme);
+
+
+const array = [1, 2, 3, 4, 5, 6];
+const chunks = _.chunk(array, 2);
+console.log(chunks); // [[1, 2], [3, 4 ], [5,6]]
