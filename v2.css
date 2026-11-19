@@ -287,6 +287,30 @@ footer {
     height: auto;
     border-radius: var(--arrondi);
 }
+#requete {
+    flex: 1;
+    font-size: larger;
+}
+#boutonDonnees {
+    color: var(--texte);
+    font-family: var(--police);
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#boutonDonnees:hover {
+    background-color: var(--champ-survol);
+}
+#boutonDonnees:disabled {
+    opacity: 0.5;
+    cursor: wait;
+}
+.succes {
+    color: rgb(80, 200, 120);
+}
+.erreur {
+    color: rgb(230, 80, 80);
+}
 @media (max-width: 640px) {
     nav {
         right: 5px;
